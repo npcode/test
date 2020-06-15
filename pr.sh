@@ -1,5 +1,5 @@
 #!/bin/bash
-REVIEWERS=${REVIEWERS:-"pheadra,nihsmik"}
+REVIEWERS=${REVIEWERS:-"pheadra"}
 REMOTE=${REMOTE:-"upstream"}
 BRANCH=${BRANCH:-"master"}
 
