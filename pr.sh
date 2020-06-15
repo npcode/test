@@ -10,7 +10,7 @@ fi
 
 set -ex
 gh pr create -B "$BRANCH" -r "$REVIEWERS" $*
-gh merge "$pr"
+gh pr merge
 
 git pull --ff-only "$REMOTE" "$BRANCH"
 
